@@ -1,156 +1,101 @@
 # Employee Management System
 
-A Java-based Employee Management System that performs CRUD operations on employee records using JDBC and MySQL. The project demonstrates object-oriented programming, database connectivity, exception handling, and CI/CD automation using Jenkins and GitHub Webhooks.
+A Java-based Employee Management System developed to practice **Core Java and Object-Oriented Programming concepts**. The application provides basic employee management operations through a menu-driven Java program.
 
-## 🚀 Technologies Used
+## Technologies Used
 
 * Java
-* JDBC
-* MySQL
-* SQL
-* OOP
-* Git
-* GitHub
-* Jenkins
-* GitHub Webhooks
-* Declarative Jenkins Pipeline
+* Core Java
+* Object-Oriented Programming (OOP)
+* Exception Handling
+* Collections Framework
 
-## ✨ Features
+## Features
 
-* Add employee records
-* View employee records
-* Update employee details
-* Delete employee records
-* Retrieve employee information from MySQL
-* Handle database operations using JDBC
-* Exception handling for application and database operations
-* Automated CI/CD pipeline using Jenkins
+* Add employee details
+* View employee details
+* Update employee information
+* Remove employee records
+* Menu-driven console application
+* Demonstrates Java OOP concepts
 
-## 🏗️ Project Architecture
+## Java Concepts Demonstrated
 
-```text
-Java Application
-      ↓
-    JDBC
-      ↓
-    MySQL
-```
+* Classes and Objects
+* Encapsulation
+* Inheritance
+* Method Overloading
+* Method Overriding
+* Exception Handling
+* Collections
+* Multithreading
+* Basic Java programming and problem solving
 
-For CI/CD:
+## Project Structure
 
-```text
-Developer Push
-      ↓
-    GitHub
-      ↓
-GitHub Webhook
-      ↓
-   Jenkins
-      ↓
-Declarative Pipeline
-      ↓
-Build & Test
-```
+The repository contains the main Employee Management System along with Java programs created while practicing Core Java concepts.
 
-## 📁 Project Structure
+### Main Application
 
-```text
-EmployManagementSystem/
-│
-├── src/
-│   └── ...
-│
-├── Jenkinsfile
-├── README.md
-└── ...
-```
+* `EmployManagementSystem.java`
+* Employee-related Java classes
 
-## ⚙️ Database Setup
+### Java Practice
 
-Create a MySQL database for the application.
+The repository also contains programs covering:
 
-Example:
+* Inheritance
+* Method Overloading and Overriding
+* Arrays
+* Matrices
+* Patterns
+* Collections
+* Multithreading
+* Basic Java problem solving
 
-```sql
-CREATE DATABASE employee_management;
-```
-
-Create the required employee table according to the application schema.
-
-Update the JDBC connection details in the Java application:
-
-```text
-URL      = jdbc:mysql://localhost:3306/employee_management
-USERNAME = your_username
-PASSWORD = your_password
-```
-
-> Do not commit database passwords or other sensitive credentials to GitHub.
-
-## ▶️ How to Run
+## How to Run
 
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Sahithi82/EmployManagementSystem.git
-cd EmployManagementSystem
 ```
 
-### 2. Configure MySQL
+### 2. Open the project
 
-Make sure MySQL is running and the required database and tables are created.
+Open the repository in any Java-supported IDE such as:
 
-### 3. Configure JDBC
+* Eclipse
+* IntelliJ IDEA
+* VS Code
 
-Update the MySQL connection details in the application.
+### 3. Compile and run
 
-### 4. Compile and Run
+Compile the Java files and run the main Employee Management System class.
 
-Compile the Java source files and run the main application class.
+## Learning Outcomes
 
-## 🔄 CI/CD Pipeline
-
-The project uses Jenkins for CI/CD automation.
-
-The pipeline is configured using a **Declarative Jenkinsfile**.
-
-A GitHub Webhook triggers the Jenkins pipeline whenever changes are pushed to the repository.
-
-```text
-GitHub Push
-     ↓
-Webhook Trigger
-     ↓
-Jenkins Pipeline
-     ↓
-Build
-     ↓
-Test
-```
-
-This demonstrates practical experience with Git-based development and continuous integration.
-
-## 🎯 Learning Outcomes
-
-Through this project, I gained practical experience in:
+Through this project, I practiced:
 
 * Core Java programming
 * Object-Oriented Programming
-* JDBC database connectivity
-* MySQL and SQL operations
-* CRUD application development
+* Working with classes and objects
+* Inheritance and polymorphism
 * Exception handling
-* Git and GitHub
-* Jenkins CI/CD
-* GitHub Webhooks
-* Declarative Jenkins Pipelines
+* Collections
+* Multithreading
+* Problem-solving using Java
 
-## 👩‍💻 Author
+## Future Improvements
+
+* Add database connectivity using JDBC and MySQL
+* Develop a graphical user interface
+* Add a web-based frontend
+* Add authentication and role-based access
+* Integrate CI/CD using Jenkins
+
+## Author
 
 **Sahithi Morampudi**
 
-GitHub: https://github.com/Sahithi82
-
-LinkedIn: https://linkedin.com/in/sahithi-morampudi08
-
-Portfolio: https://sahithi-portfolio-websitee.vercel.app
+B.Tech – Information Technology | 2026 Graduate
